@@ -10,9 +10,9 @@ public class NounFinderGame {
        if (!inputFile.isEmpty()) {
            for (String input : inputFile) {
                if (input.isEmpty()) {
-                    System.out.println("Line is empty");
+//                    System.out.println("Line is empty");
                } else if (input.matches("[0-9a-zA-Z\\s]+")) {
-                    System.out.println("Invalid Input");
+//                    System.out.println("Invalid Input");
                }
                if (input.matches("[a-zA-Z\\s]+.")) {
                    String[] splitTheEachSentence = input.split("\\.");
@@ -22,10 +22,9 @@ public class NounFinderGame {
                            List<String> remainingWords = new ArrayList<>();
                            String lowerCaseWords = words.toLowerCase();
                            if (lowerCaseWords.startsWith("her") || lowerCaseWords.startsWith("she")) {
-                               System.out.println("it is pronoun" +" "+ " "+ "--->"+" "+ " "+" "+lowerCaseWords);
+//                               System.out.println("it is pronoun" +" "+ " "+ "--->"+" "+ " "+" "+lowerCaseWords);
                            } else {
                                remainingWords.add(lowerCaseWords);
-
                            }
                        }
                    }
