@@ -1,9 +1,0 @@
-Line is empty
-Invalid Input
-Invalid Input
-Invalid Input
-Invalid Input
-This Words are Noun  ---> boy
-This Words are Noun  ---> chair
-This Words are pronoun  --->   she
-This Words are pronoun  --->   her
